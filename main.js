@@ -13,6 +13,10 @@ let app = new Vue ({
     ]
   },
 
+  created: function () {
+    setInterval(this.nextImage, 4000)
+  },
+
   methods: {
 
     nextImage () {

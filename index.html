@@ -16,7 +16,7 @@
                 <div class="images">
                     <img class="active" v-bind:src="images[counter]" alt="">
                 </div>
-                <div class="next" @click="nextImage">
+                <div class="next" @click="nextImage" @keyright.arrow-keys="nextImage">
                     <i class="fas fa-angle-right"></i>
                 </div>
                 <div class="nav">
