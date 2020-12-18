@@ -16,14 +16,19 @@ let app = new Vue ({
 
     nextImage () {
       this.counter++
-      
       if (this.counter === this.images.length) {
         this.counter = 0;
       }
     },
 
     prevImage () {
-
+      if (this.counter > 0) {
+        this.counter--;
+      } else {
+        this.counter = (this.images.length - 1);
+      }
+        
+      
     }
   }
 })
