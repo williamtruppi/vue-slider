@@ -8,7 +8,8 @@ let app = new Vue ({
       "https://images.pexels.com/photos/371633/pexels-photo-371633.jpeg?cs=srgb&dl=clouds-country-daylight-371633.jpg&fm=jpg",
       "https://static.photocdn.pt/images/articles/2017/04/28/iStock-646511634.jpg",
       "https://cdn.mos.cms.futurecdn.net/FUE7XiFApEqWZQ85wYcAfM.jpg",
-      "https://static.photocdn.pt/images/articles/2017/04/28/iStock-546424192.jpg"
+      "https://static.photocdn.pt/images/articles/2017/04/28/iStock-546424192.jpg",
+      "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
     ]
   },
 
@@ -27,8 +28,6 @@ let app = new Vue ({
       } else {
         this.counter = (this.images.length - 1);
       }
-        
-      
     }
   }
 })
