@@ -17,7 +17,7 @@ let app = new Vue ({
     nextImage () {
       this.counter++
       
-      if (this.counter > images.length) {
+      if (this.counter === this.images.length) {
         this.counter = 0;
       }
     },
