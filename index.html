@@ -22,7 +22,10 @@
                 <div class="nav">
                     <i 
                     :class = "(index === counter) ? 'active' : '' " class="fas fa-circle" 
-                    v-for="(img, index) in images"></i>
+                    v-for="(img, index) in images"
+                    @click="counter = index"></i>
+
+                    <!-- @click="littleCircle(counter)"> -->
                 </div>
             </div>
         </div>

@@ -32,6 +32,11 @@ let app = new Vue ({
       } else {
         this.counter = (this.images.length - 1);
       }
+    },
+
+    // metodo con funzione
+    littleCircle (index) {
+      this.counter = index;
     }
   }
 })
